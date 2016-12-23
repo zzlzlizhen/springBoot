@@ -3,6 +3,10 @@
  */
 package lz.com.springBoot.chapter03.test05;
 
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
 import junit.framework.Assert;
 
 import org.junit.Test;
@@ -35,4 +39,6 @@ public class DemoBeanIntegrationTests {
 		String actual = testBean.getContent();
 		Assert.assertEquals(expected, actual);
 	}
+	
+	
 }
